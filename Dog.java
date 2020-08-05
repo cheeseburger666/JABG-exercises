@@ -32,7 +32,8 @@ public class Dog extends PetAnimal {
 	 * Override the toString method
 	 */
 	public String toString() {
-		return("Dog name:"+getName() + "Id: " +getId());
+		//return("Dog name:"+getName() + "Id: " +getId());
+		return (super.toString()+ " is a dog");
 	}
     
 	public static void main(String[] args) {
@@ -46,6 +47,7 @@ public class Dog extends PetAnimal {
 		dog.bark();
 		System.out.println("My dog is named " + dog.getName() + 
 				"id: " + dog.getId());	
+		System.out.println(dog);
 		
 	}
 }

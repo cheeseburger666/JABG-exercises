@@ -51,7 +51,7 @@ public class PetAnimal {
 	}
     
 	public String toString (){
-		return("PetAnimal name:"+name + "Id: " +id);
+		return("PetAnimal name:"+name + "[Id]: " +id);
 		
 	}
 
